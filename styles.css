@@ -1,0 +1,40 @@
+body {
+    margin: 10;
+    padding: 20;
+    background: linear-gradient(45deg, #dac030, #faf8f7);
+    font-family: Monaco, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px; /* Adjust the top margin to add space */
+    padding: 20px;
+    background-color: #dddddd; /* Background color for the container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(22, 2, 2, 0.1); /* Box shadow for a subtle effect */
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    max-width: 150px; /* Adjust the size of your logo */
+}
+
+.inputs {
+    text-align: center;
+}
+
+.main-heading {
+    text-align: center;
+    padding: 500px 0; /* Add padding as needed */
+    margin: 20;
+    font-weight: bold;
+    /* Additional styles for the heading (font-size, color, etc.) can be added here */
+}

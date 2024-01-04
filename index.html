@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>form data in sheets</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1 class="main-heading">Form Input</h1>
+        <img src="Final Logo.jpeg" class="logo">
+        <form name="submit-to-google-sheet">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label>Email:</label> <br>
+            <input type="email" name="email"required><br><br>
+            <label>Phone Number:</label><br>
+            <input type="text" name="phone" required><br><br>
+            <label>Committee:</label> <br>
+            <input type="radio" name="committee" value="DISEC"><label>DISEC</label>
+            <input type="radio" name="committee" value="CSW"><label>CSW</label>
+            <input type="radio" name="committee" value="HRC"><label>HRC</label>
+            <input type="radio" name="committee" value="Rajya Sabha"><label>Rajya Sabha</label>
+            <input type="radio" name="committee" value="IP"><label>IP</label> <br><br>
+            <label>Post:</label> <br>
+            <input type="radio" name="post" value="Chairperson"><label>Chairperson</label>
+            <input type="radio" name="post" value="ViceChairperson"><label>Vice-Chairperson</label>
+            <input type="radio" name="post" value="Director"><label>CSW</label><br><br>
+            <label for="inputData">Past Experience:</label><br>
+            <textarea id="pastExperience" name="pastExperience" rows="6" cols="50" required></textarea><br><br>
+
+            
+            <input type="submit" name="submit"><br>
+            
+        </form>
+
+        <script src="index.js">
+           
+        </script>
+    </body>
+</html>
